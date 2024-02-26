@@ -11,7 +11,7 @@ pipeline {
         // This can be http or https
         NEXUS_PROTOCOL = "http"
         // Where your Nexus is running
-        NEXUS_URL = "http://34.121.188.227:8081" // Ensure to include protocol (http or https)
+        NEXUS_URL = "34.121.188.227:8081" // Ensure to include protocol (http or https)
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "maven-releases"
         // Jenkins credential id to authenticate to Nexus OSS
